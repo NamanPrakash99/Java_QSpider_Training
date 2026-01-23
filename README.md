@@ -1,6 +1,6 @@
 # Java Training Repository - LPU
 
-A comprehensive Java programming repository containing practical examples, exercises, and implementations covering fundamental to advanced Java concepts. This repository serves as a learning resource for Java developers and students.
+A comprehensive Java programming repository containing practical examples, exercises, and implementations covering fundamental to advanced Java concepts. This repository serves as a learning resource for Java developers.
 
 ## 📋 Table of Contents
 
@@ -12,8 +12,6 @@ A comprehensive Java programming repository containing practical examples, exerc
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Repository Structure](#repository-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -217,14 +215,6 @@ Contributions are welcome! If you'd like to contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Contribution Guidelines
-
-- Follow Java naming conventions
-- Add comments to explain complex logic
-- Ensure code compiles without errors
-- Test your code before submitting
-- Update documentation if needed
-
 ## 📝 Notes
 
 - All code examples are educational and meant for learning purposes
@@ -245,22 +235,12 @@ Recommended learning order:
 7. **Advanced**: `exceptions/`, `FileHandling/`, `FunctionalProgramming/`
 8. **Practice**: `strings/`, `programming_1/`, `week1_Assignments/`
 
-## 📄 License
-
-This project is open source and available for educational purposes. Feel free to use, modify, and distribute the code for learning.
-
-## 👨‍💻 Author
-
-Created as part of Java training program.
-
-## 🙏 Acknowledgments
-
-- Lovely Professional University (LPU) for the training curriculum
-- Java community for excellent documentation and resources
-
 ---
 
 **Happy Coding! 🚀**
 
 If you find this repository helpful, please consider giving it a ⭐ star!
+
+
+
 
