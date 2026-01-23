@@ -1,0 +1,6 @@
+package Collections;
+import java.util.Comparator;
+
+public class SortByName implements Comparator<Trainer> {
+
+}

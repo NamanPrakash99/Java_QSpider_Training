@@ -1,0 +1,17 @@
+package Collections;
+
+public class Trainer {
+	int tid;
+	String tname;
+	String tsub;
+	
+	Trainer(int tid,String tname,String tsub){
+		this.tid=tid;
+		this.tname=tname;
+		this.tsub=tsub;
+	}
+	@Override
+	public String toString() {
+	    return "ID: " + this.tid + " | Name: " + this.tname + " | Subject: " + this.tsub;
+	}
+}

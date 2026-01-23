@@ -1,0 +1,20 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		ArrayList a1=new ArrayList();
+		// to add in one line --> Arrays.asList
+		a1.add("hello");
+		a1.add(4567);
+		a1.add("naman");
+		a1.add(654);
+		a1.add("utkarsh");
+		System.out.println(a1);
+		
+	
+	}
+
+}

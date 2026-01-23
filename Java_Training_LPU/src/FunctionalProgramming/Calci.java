@@ -1,0 +1,17 @@
+package FunctionalProgramming;
+
+public interface Calci {
+//	 void add();
+	
+//	String demo();
+	
+//	void test(int a);
+	
+//	int test(int a);
+	
+	void add(int a,int b);
+
+//	int add(int a,int b);
+	
+	
+}

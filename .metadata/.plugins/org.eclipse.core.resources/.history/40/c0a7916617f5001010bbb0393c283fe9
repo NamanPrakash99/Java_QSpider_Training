@@ -1,0 +1,17 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class EmployeeDriver {
+
+	public static void main(String[] args) {
+		ArrayList<EmployeeCompare> e=new ArrayList<>();
+		e.add(new EmployeeCompare(101,"Ravi"));
+		e.add(new EmployeeCompare(101,"Naman"));
+		e.add(new EmployeeCompare(101,"Dingi"));
+		e.add(new EmployeeCompare(101,"Dingi"));
+
+
+	}
+
+}

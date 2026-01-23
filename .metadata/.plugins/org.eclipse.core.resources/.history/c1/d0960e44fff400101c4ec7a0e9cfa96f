@@ -1,0 +1,10 @@
+package Collections;
+
+public class VectorTask {
+	int cid;
+	String name;
+	String address;
+	
+	VectorTask
+
+}

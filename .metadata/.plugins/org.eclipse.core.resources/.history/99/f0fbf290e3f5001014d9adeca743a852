@@ -1,0 +1,12 @@
+package Collection_Queue;
+import java.util.Queue;
+import java.util.LinkedList;
+
+public class Example {
+public static void main(String[] args) {
+	Queue q=new LinkedList();
+	q.add(2);
+	
+	
+}
+}

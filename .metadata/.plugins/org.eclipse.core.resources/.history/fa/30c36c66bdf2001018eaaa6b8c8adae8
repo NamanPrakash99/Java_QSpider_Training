@@ -1,0 +1,45 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		ArrayList a1=new ArrayList();
+		a1.add("hello");
+		a1.add(4567);
+		a1.add("naman");
+		a1.add(654);
+		a1.add("utkarsh");
+		System.out.println(a1);
+		
+		ArrayList a2=new ArrayList();
+		a2.add("Ravi");
+		a2.add(76765);
+		a2.add("divyansh");
+		a2.add(654);
+		a2.add("utkarsh");
+		System.out.println(a2);
+		
+		a1.remove(1);
+		a2.remove("Ravi");
+		
+		System.out.println(a1);
+		System.out.println(a2);
+		
+		//reomevAll
+		a2.removeAll(a1);
+		System.out.println(a1);
+		
+		// retain ALL
+		a2.retainAll(a1);
+		System.out.println(a2);
+		
+		// clear
+		a2.clear();
+		System.out.println(a2);
+		
+		
+	}
+
+}

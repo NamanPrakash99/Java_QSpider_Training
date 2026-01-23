@@ -1,0 +1,16 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Array.Iterator;
+
+public class Example5 {
+	public static void main(String[] args) {
+		ArrayList a1=new ArrayList();
+		a1.add("haiii");
+		a1.add(7654);
+		a1.add("byee");
+		a1.add(543);
+		Iterator i=a.iterator();
+		
+	}
+}

@@ -1,0 +1,24 @@
+package Collections;
+
+public class Customer {
+	int cid;
+	String name;
+	String address;
+	
+	Customer(int eid,String name, String address){
+		this.cid=cid;
+		this.name=name;
+		this.address=address;
+	}
+	
+	int GetId() {
+		return cid;
+	}
+	String GetName() {
+		return name;
+	}
+	String GetAddress() {
+		return address;
+	}
+
+}

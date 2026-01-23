@@ -1,0 +1,32 @@
+package FunctionalProgramming;
+
+public class Example1Lambda {
+	public static void main(String[] args) {
+		// no argument with void
+//		Calci c=()->System.out.println("Hello Lambda......!!!");
+//		c.add();
+		
+		// no argument with return type
+//		Calci c1=()->"Hello.....";
+//		System.out.println(c1.demo());
+		
+		// 1 argument with void
+//		Calci c=(x)->System.out.println(x);
+//		c.test(5);
+		
+		// 1 argument with return type
+//		Calci c=(x)->x*x;
+//		System.out.println(c.test(5));
+//		Calci c = (x) -> {
+//		    if (x % 2 == 0) {
+//		        System.out.println(x + " is even");
+//		        return 1;    
+//		    } else {
+//		        System.out.println(x + " is odd");
+//		        return 0;     
+//		    }
+//		};
+		
+		
+	}
+}

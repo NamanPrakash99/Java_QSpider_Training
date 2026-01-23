@@ -1,0 +1,46 @@
+package Collections;
+import java.util.Scanner;
+
+import sun.jvm.hotspot.tools.SysPropsDumper;
+
+import java.util.LinkedList;
+import java.util.Iterator;
+
+public class LLTask {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		LinkedList<Employee> ll = new LinkedList<>();
+		
+		ll.add(new Employee(101,"Naman"));
+		ll.add(new Employee(102,"Ravi"));
+		ll.add(new Employee(103,"Utkarsh"));
+		ll.add(new Employee(104,"Divyansh"));
+		
+		System.out.println("Enter the eid to delete");
+		int deleteid=sc.nextInt();
+		
+		Iterator<Employee> it=ll.iterator();
+		 
+		boolean found=false;
+		
+		while(it.hasNext()){
+			Employee emp=(Employee)it.next();// down casting
+			if(emp.GetID()==deleteid) {
+				it.remove();
+				System.out.println("The employee id "+ emp.GetID()+" has been deleted successfully");
+				found=true;
+				break;
+			}
+		}
+		if(!found) {
+			System.out.println("Employee id does not found");
+		}
+		
+		while(it.hasNext()) {
+			String str=it.next();
+			System.out.println(it+" ");
+		}
+	}
+
+}

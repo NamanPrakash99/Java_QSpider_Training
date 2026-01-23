@@ -1,0 +1,21 @@
+package exceptions;
+
+public class T13Ticket {
+	static int Availseats=10;
+	static boolean PaymentsucceedBookingfailed=true;
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void TicketBook(int seat) throws T13SeatNotAvailableException,T13PaymentSucceedBookingFailedException  {
+		if(seat>Availseats) {
+			throw new T13SeatNotAvailableException("Seats Not Availble");
+		}else if(!PaymentsucceedBookingfailed) {
+			throw new T13PaymentSucceedBookingFailedException("Payment Succeeded but Booking Failed");
+		}else {
+			Availseats-=seat;
+			System.out.println("Booking done.\nAvailabe Seats:"+seat);
+		}
+	}
+
+}

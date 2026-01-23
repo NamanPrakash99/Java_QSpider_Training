@@ -1,0 +1,18 @@
+package NonPrimitiveUpcasting;
+
+public class Driver {
+
+	public static void main(String[] args) {		
+		
+		//	Person p=new Employee("Ravi","Azamgarh",101,"Devloper")
+
+		Employee e=new Employee("Ravi","Azamgarh",101,"Web-Developer");
+		Person p=e;      // Upcasted Scenario
+		System.out.println(p.name);
+		System.out.println(p.address);
+//		System.out.println(p.empid);
+//		System.out.println(p.role);
+		
+	}
+
+}

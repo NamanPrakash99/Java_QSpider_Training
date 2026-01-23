@@ -1,0 +1,21 @@
+package FunctionalProgramming;
+import java.util.*;
+
+public class Example2 {
+	public static void main(String[] args) {
+		List<Integer> list=Arrays.asList(10,20,30,40,50);
+		
+		// for each using lambda expression
+		//list.forEach(n->System.out.println(n));
+		
+		Collections.sort(list,(a,b)->a.compareTo(b));
+		
+		
+		
+		
+		// using for each
+//		for(Integer l:list) {
+//			System.out.println(l);
+//		}
+	}
+}

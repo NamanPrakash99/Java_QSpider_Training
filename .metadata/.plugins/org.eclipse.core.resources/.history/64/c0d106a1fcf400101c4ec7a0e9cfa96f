@@ -1,0 +1,11 @@
+package Collections;
+import java.util.Scanner;
+import java.util.LinkedList;
+
+public class LLTask {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package Collections;
+
+public class Custmer {
+	int cid;
+	String name;
+	String address;
+	
+	VectorTask
+
+}

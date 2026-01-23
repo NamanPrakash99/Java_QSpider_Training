@@ -1,0 +1,8 @@
+package FunctionalProgramming;
+
+public class Example5 {
+	public static void main(String[] args) {
+		// Arrays dont have Streams
+		int[] arr= {10,20,30,40,50};
+	}
+}

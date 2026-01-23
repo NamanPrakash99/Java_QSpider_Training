@@ -1,0 +1,10 @@
+package Collections;
+import java.util.Comparator;
+
+public class TriainerComparator implements Comparator<Trainer> {
+
+	// override compare
+	public int compare(Trainer t1, Trainer t2) {
+		return 
+	}
+}

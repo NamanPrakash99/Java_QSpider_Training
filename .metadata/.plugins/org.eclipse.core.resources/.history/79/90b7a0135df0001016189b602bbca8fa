@@ -1,0 +1,10 @@
+package exceptions;
+
+public class T13Ticket {
+	static int Availseats=10;
+	static boolean PaymentsucceedBooking failed=true;
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,65 @@
+package Collections;
+import java.util.Iterator;
+import java.util.Vector;
+import java.util.Scanner;
+
+public class CustTask {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Vector<Customer> v = new Vector<>();
+		
+		v.add(new Customer(101,"Naman","Mumbai"));
+		v.add(new Customer(102,"Ravi","Gujarat"));
+		v.add(new Customer(103,"Utkarsh","Varansi"));
+		v.add(new Customer(104,"Divyansh","Azamgarh"));
+		v.add(new Customer(105,"Aashu","Ranchi"));
+		
+		// SEARH THE CUTOMER DETAILS BASED ON NAME
+		System.out.print("Enter Name to search: ");
+        String searchName = sc.next();
+        Iterator<Customer> it = v.iterator();
+        boolean found = false;
+        while(it.hasNext()) {
+        	Customer c=(Customer) it.next();
+        	if(c.GetName().equalsIgnoreCase(searchName)) {
+        		System.out.println("Cutomer Found : "+c);
+        		found=true;
+        		break;
+        	}
+        }
+        if(!found) {
+        	System.out.println("Customer not Found");
+        }
+        
+        // REMOVE THE CUTOMER BASED ON CID
+        
+        System.out.print("Enter the id to remove: ");
+        int rid = sc.nextInt();
+        Iterator<Customer> itr=v.iterator();
+        boolean idfound=false;
+        while(itr.hasNext()) {
+        	Customer c=(Customer) itr.next();
+        	if(c.GetId()==rid) {
+        		itr.remove();
+        		System.out.println("The customer id "+ c.GetId()+" has been deleted successfully");
+        		idfound=true;
+        		break;
+        	}
+       }
+        if(!found) {
+        	System.out.println("Cutomer did not found");
+        }
+        
+        // PRINT THE REMAINING ALL CUTSOMER DETAILS
+        
+//        System.out.println("The Remainig customer are:");
+//        
+//        Iterator<Customer> itrr=v.iterator();
+//        while(itrr.hasNext()) {
+//        	Customer cr=itrr.next();
+//        	System.out.println(cr+" ");
+//        }
+		
+	}
+
+}

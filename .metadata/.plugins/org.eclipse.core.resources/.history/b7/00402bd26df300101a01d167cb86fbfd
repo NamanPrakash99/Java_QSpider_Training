@@ -1,0 +1,12 @@
+package Collections;
+
+public class Student {
+	int sid;
+	String sname;
+	
+	//constructor to initialize
+	Student(int sid,String sname){
+		this.sid=sid;
+		this.sname=sname;
+	}
+}

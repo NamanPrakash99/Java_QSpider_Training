@@ -1,0 +1,11 @@
+package Collections;
+import java.util.Stack;
+
+public class StackExample1 {
+
+	public static void main(String[] args) {
+		Stack sc=new Stack();
+		
+	}
+
+}

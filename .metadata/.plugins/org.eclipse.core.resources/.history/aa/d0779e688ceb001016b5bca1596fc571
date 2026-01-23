@@ -1,0 +1,13 @@
+package NonPrimitiveUpcasting;
+
+public class Employee {
+	
+	int empid;
+	String name;
+	
+
+	public static void main(String[] args) {
+
+	}
+
+}

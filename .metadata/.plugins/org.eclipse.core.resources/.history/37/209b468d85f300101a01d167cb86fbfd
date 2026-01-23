@@ -1,0 +1,29 @@
+package Collections;
+
+import java.util.LinkedList;
+import java.util.Iterator;
+
+public class llExample5 {
+
+	public static void main(String[] args) {
+		LinkedList<String> list = new LinkedList<>();
+
+		list.add("Naman");
+		list.add("Ravi");
+		list.add("Divyansh");
+//		System.out.println(list);	
+		
+		Iterator<String> it = list.iterator();
+
+        while(it.hasNext()) {
+//            String lang = it.next();
+            System.out.println(it);
+        }
+        
+		// Iterating 
+//		for(String s:list) {
+//			System.out.println(s);
+//		}
+	}
+
+}

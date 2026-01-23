@@ -1,0 +1,13 @@
+package FunctionalProgramming;
+
+import java.util.Arrays;
+
+public class Example5 {
+	public static void main(String[] args) {
+		// Arrays dont have Streams
+		int[] arr= {10,20,31,40,53};
+		Arrays.stream(arr)
+		.filter(x->x%2==1)
+		.forEach(System.out::println);
+	}
+}

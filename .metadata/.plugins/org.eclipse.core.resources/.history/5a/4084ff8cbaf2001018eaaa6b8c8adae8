@@ -1,0 +1,31 @@
+package Collections;
+import java.util.*;
+
+public class Example {
+
+	public static void main(String[] args) {
+		// creating non generic type of ArrayList
+		ArrayList al=new ArrayList();
+		ArrayList a12=new ArrayList();
+
+		al.add("Naman");
+		al.add(2345);
+		al.add(true);
+		al.add("hello");
+		al.add(987654);
+//		System.out.println(al);
+		
+		// add all method
+		a12.addAll(al);
+//		System.out.println(a12);
+		
+		// add all (int index, collection c)
+		a12.addAll(1, al);
+		System.out.println(a12);
+		
+		// add (int index, data)
+		al.add(1,"Ravi");
+		System.out.println(al);;
+	}
+
+}

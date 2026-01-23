@@ -1,0 +1,11 @@
+package Collections;
+
+public class EmployeeCompare {
+	int eid;
+	String ename;
+	
+	EmployeeCompare(int eid,String name){
+		this.eid=eid;
+		this.name=name;
+	}
+}

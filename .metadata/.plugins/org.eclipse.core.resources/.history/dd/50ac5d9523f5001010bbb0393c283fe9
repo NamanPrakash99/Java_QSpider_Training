@@ -1,0 +1,38 @@
+package Collections;
+import java.util.ArrayList;
+import java.util.Collections;
+
+import Collections.SortById;
+import Collections.Trainer;
+
+public class TrainerDriver {
+
+	public static void main(String[] args) {
+		ArrayList<Trainer> a=new ArrayList<>();
+		a.add(new Trainer(404,"Abc","Java"));
+		a.add(new Trainer(443,"Ravi","SQL"));
+		a.add(new Trainer(443,"Divyansh","SQL"));
+		a.add(new Trainer(487,"Naman","Selenium"));
+		a.add(new Trainer(432,"Shraddha","J2EE"));
+		
+		System.out.println("Before Sorting......!");
+		for(Trainer t:a) {
+			System.out.println(t);
+		}
+		
+		System.out.println("After Sorting......!");
+		
+		Collections.sort(a,new SortById());   // using comparator
+		for(Trainer t:a) {
+			System.out.println(t);
+		}
+//		
+//		System.out.println("After Sorting by name:");
+//		Collections.sort(a,new SortByName());   // using comparator
+//		for(Trainer t:a) {
+//			System.out.println(t);
+//		}
+		
+	}
+
+}

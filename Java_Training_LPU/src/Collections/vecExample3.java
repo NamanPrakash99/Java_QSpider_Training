@@ -1,0 +1,33 @@
+package Collections;
+
+import java.util.Vector;
+
+public class vecExample3 {
+
+	public static void main(String[] args) {
+		Vector v1=new Vector(4,5);  // initial capacity then by how to increase when it is full
+		v1.add(4);
+		v1.add("naman");
+		v1.add(9876);
+		v1.add("hello");
+		System.out.println(v1);
+		System.out.println(v1.capacity());
+		
+		Vector v2=new Vector(4,5);
+		v2.add(8765);
+		v2.add("heyyy");
+		v2.add(7654);
+		v2.add("hello");
+		System.out.println(v2);
+		System.out.println(v2.capacity());
+		
+		v1.add(767543);
+		v2.add("vvdc");
+		System.out.println(v1);
+		System.out.println(v1.capacity());
+		
+		System.out.println(v2);
+		System.out.println(v2.capacity());
+	}
+
+}

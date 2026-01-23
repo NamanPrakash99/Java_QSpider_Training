@@ -1,0 +1,43 @@
+package Collections;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class ChocolateDriver {
+
+	public static void main(String[] args) {
+		ArrayList<Chocolate> c=new ArrayList<>();
+		c.add(new Chocolate(101,"Dairy Milk",200));
+		c.add(new Chocolate(102,"5-Star",50));
+		c.add(new Chocolate(103,"Ferrero Rocher",1000));
+		c.add(new Chocolate(104,"Munch",20));
+		c.add(new Chocolate(105,"Kitkat",80));
+		System.out.println("Before Sorting");
+		for(Chocolate a:c) {
+			System.out.println(a);
+		}
+		
+		Collections.sort(c);
+		System.out.println("After Sorting");
+		for(Chocolate a:c) {
+			System.out.println(a);
+		}
+		
+//		ArrayList al=new ArrayList();
+//		al.add(76);
+//		al.add(445);
+//		al.add(9);
+//		al.add(90);
+//		Collections.sort(al);
+//		System.out.println(al);
+	
+		
+//		Iterator<Chocolate> it=c.iterator();
+//		while(it.hasNext()) {
+//			Chocolate cr=(Chocolate) it.next();
+//			System.out.println(cr);
+//		}
+		
+	}
+
+}

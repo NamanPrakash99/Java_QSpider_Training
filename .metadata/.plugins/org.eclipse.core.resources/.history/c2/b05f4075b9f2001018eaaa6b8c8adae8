@@ -1,0 +1,19 @@
+package Collections;
+import java.util.*;
+
+public class Example {
+
+	public static void main(String[] args) {
+		ArrayList al=new ArrayList();
+		System.out.println(al.size());
+		System.out.println();
+		al.add("Naman");
+		al.add(2345);
+		al.add("true");
+		al.add("hello");
+		al.add(987654);
+		
+		System.out.println(al);
+	}
+
+}

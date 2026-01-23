@@ -1,0 +1,13 @@
+package Collections;
+
+import java.util.Vector;
+import java.util.Scanner;
+
+public class CustTask {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Vector<Employee> ll = new Vector<>();
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package Collections;
+
+import java.util.Vector;
+import java.util.Scanner;
+
+public class CustTask {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Vector<Customer> v = new Vector<>();
+		
+		v.add(new Customer(101,"Naman","Mumbai"));
+		v.add(new Customer(102,"Ravi","Gujarat"));
+		v.add(new Customer(103,"Utkarsh","Varansi"));
+		v.add(new Customer(104,"Divyansh","Azamgarh"));
+		v.add(new Customer(105,"Aashu","Ranchi"));
+		
+		System.out.print("Enter Name to search: ");
+        String searchName = sc.next();
+        boolean found = false;
+       Iterator<Employee> it=v.iterator();
+		
+		
+	}
+
+}

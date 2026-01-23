@@ -1,0 +1,19 @@
+package NonPrimitiveUpcasting;
+
+public class Employee extends Person {
+	
+	int empid;
+	String role;
+	
+	Employee(String name, String address,int empid,String role){
+		super(name,address);
+		this.empid=empid;
+		this.role=role;
+	}
+	
+
+	public static void main(String[] args) {
+
+	}
+
+}

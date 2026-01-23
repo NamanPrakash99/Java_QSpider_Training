@@ -1,0 +1,8 @@
+package Collections;
+
+public class Employee {
+	int epid;
+	String ename;
+	
+
+}

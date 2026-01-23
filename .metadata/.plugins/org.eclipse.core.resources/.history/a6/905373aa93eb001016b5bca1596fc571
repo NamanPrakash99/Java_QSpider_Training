@@ -1,0 +1,10 @@
+package NonPrimitiveUpcasting;
+
+public class Luxury {
+	int price;
+	
+	Luxury(int price){
+		this.price=price
+	}
+
+}

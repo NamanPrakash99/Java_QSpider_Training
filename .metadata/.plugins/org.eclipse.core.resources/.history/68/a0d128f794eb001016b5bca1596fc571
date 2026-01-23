@@ -1,0 +1,10 @@
+package NonPrimitiveUpcasting;
+
+public class Mini extends Uber {
+	int price;
+	
+	Mini(int price){
+		this.price=price;
+	}
+
+}

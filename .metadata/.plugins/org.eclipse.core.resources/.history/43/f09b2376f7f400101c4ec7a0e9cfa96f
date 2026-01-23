@@ -1,0 +1,11 @@
+package Collections;
+import java.util.Vector;
+
+public class vecExample5 {
+
+	public static void main(String[] args) {
+		Vector<String> v=new Vector<>();
+		
+	}
+
+}

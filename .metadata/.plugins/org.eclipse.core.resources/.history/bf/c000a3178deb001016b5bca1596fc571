@@ -1,0 +1,11 @@
+package NonPrimitiveUpcasting;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Employee e=new Employee("Ravi","Azamgarh",101,"Devloper");
+		Person p=e;
+	//	Person p=new Employee("Ravi","Azamgarh",101,"Devloper")
+	}
+
+}

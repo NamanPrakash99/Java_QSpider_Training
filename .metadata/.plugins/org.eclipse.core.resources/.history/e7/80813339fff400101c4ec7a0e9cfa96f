@@ -1,0 +1,10 @@
+package Collections;
+
+public class CustomerMain {
+	int cid;
+	String name;
+	String address;
+	
+	Cut
+
+}

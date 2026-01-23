@@ -1,0 +1,15 @@
+package FunctionalProgramming;
+import java.util.*;
+
+public class EmployeeDriver {
+	public static void main(String[] args) {
+		List<Employees> e = new ArrayList<>();
+		e.add(new Employee(101,"Naman",50000));
+		e.add(new Employee(102,"Aman",70000));
+		e.add(new Employee(103,"Ravi",90000));
+		e.add(new Employee(104,"Divyansh",30000));
+		e.add(new Employee(105,"Utkarsh",80000));
+
+		
+	}
+}

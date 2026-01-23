@@ -1,0 +1,19 @@
+package LinkedHashSet;
+import java.util.HashSet;
+
+
+public class TeacherDriver {
+
+	public static void main(String[] args) {
+		HashSet<Teacher> h=new HashSet<>();
+		
+		h.add(new Teacher(101,"Ravi","SQL"));
+		h.add(new Teacher(109,"Shraddha","SDLC"));
+		h.add(new Teacher(101,"Naman","Selenium"));
+		h.add(new Teacher(101,"Divyansh","React"));
+		h.add(new Teacher(101,"Utkarsh","Backend"));
+
+		Collections.sort(h);
+	}
+
+}

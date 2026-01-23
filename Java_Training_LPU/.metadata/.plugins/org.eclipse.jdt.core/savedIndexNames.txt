@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\java\Java_Training_LPU\.metadata\.plugins\org.eclipse.jdt.core
