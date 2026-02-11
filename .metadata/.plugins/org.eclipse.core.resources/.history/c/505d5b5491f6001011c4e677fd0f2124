@@ -1,9 +1,0 @@
-package AnonymousClass;
-
-public class CalciMain {
-	public static void main(String[] args) {
-		Calci c=new Calci() {
-			
-		}
-	}
-}

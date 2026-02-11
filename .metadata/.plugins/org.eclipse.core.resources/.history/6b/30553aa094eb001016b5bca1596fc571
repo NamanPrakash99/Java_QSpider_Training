@@ -1,9 +1,0 @@
-package NonPrimitiveUpcasting;
-
-public class Sedan {
-	int price;
-
-	Sedan(int price){
-		this.price=price;
-	}
-}

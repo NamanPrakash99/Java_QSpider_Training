@@ -1,9 +1,0 @@
-package NonPrimitiveUpcasting;
-
-public class Sedan extends Uber {
-	int price;
-
-	Sedan(){
-		this.price=price;
-	}
-}

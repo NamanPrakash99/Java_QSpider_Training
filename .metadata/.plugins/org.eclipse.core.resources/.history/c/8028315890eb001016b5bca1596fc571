@@ -1,7 +1,0 @@
-package NonPrimitiveUpcasting;
-
-public class Cat {
-	void meow() {
-		System.out.println("Mewo meow ......!");
-	}
-}

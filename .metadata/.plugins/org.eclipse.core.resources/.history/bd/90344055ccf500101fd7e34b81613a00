@@ -1,9 +1,0 @@
-package TreeSet;
-import java.util.TreeSet;
-
-
-public class BiryaniDriver {
-	public static void main(String[] args) {
-		TreeSet<Biryani> t=new TreeSet<>();
-	}
-}

@@ -1,7 +1,0 @@
-package FunctionalProgramming;
-
-public interface Calci {
-//	 void add();
-	
-	String demo();
-}

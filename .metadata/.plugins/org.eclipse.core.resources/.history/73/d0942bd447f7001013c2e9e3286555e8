@@ -1,7 +1,0 @@
-package FunctionalProgramming;
-
-public class Example1Lambda {
-	public static void main(String[] args) {
-		Calci c=()->System.out.println("Hello Lambda......!!!");
-	}
-}

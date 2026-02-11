@@ -1,9 +1,0 @@
-package Collections;
-import java.util.Comparator;
-
-public class SortByName implements Comparator<Trainer> {
-	@Override
-	public int compare(Trainer t1, Trainer t2) {
-		return t1.CompareTo(t2)
-	}
-}

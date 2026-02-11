@@ -1,7 +1,0 @@
-package TreeSet;
-
-public class Biryani {
-	int bid;
-	String bname;
-	int bprice
-}

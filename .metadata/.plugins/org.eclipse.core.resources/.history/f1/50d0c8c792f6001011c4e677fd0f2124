@@ -1,6 +1,0 @@
-package AnonymousClass;
-
-public interface Calci {
-	public void add();
-	public int printEven(int a,int b);
-}
